@@ -12,15 +12,15 @@ ssh-agent // agentin luominen vaikeaa, en saanut tehtyä loppuun asti kohtaa:  S
 
 14.5.2015 to OH
 Netbeans-projektin luominen repokansioon 
-	-javan (uusimman) asentaminen
-	-tmc-netbeansin asentaminen, installerin kanssa ongelmia - jouduin asentamaan netbeansin erikseen
-	tmc-plugarin kanssa 90min
-	
-	-maven ja PIT
-	netbeansin projektikansion osoittaminen parempaan paikkaan - katso paketin sisään ->
-	Contents/Resources/etc/netbeans.conf 50min
-	
-	netbeans meni rikki eikä suostunut käynnistymään enää toista kertaa - tunnistettu bugi
-	sudo killall -u nnexus // ei auttanu
-	hard reset // auttoi
-	kotihakemiston luvituksissa on vikaa, eikä netbeans suostu käyttämään sitä // en saanut vielä korjattua 45min
+-javan (uusimman) asentaminen
+-tmc-netbeansin asentaminen, installerin kanssa ongelmia - jouduin asentamaan netbeansin erikseen
+tmc-plugarin kanssa 90min
+
+-maven ja PIT
+netbeansin projektikansion osoittaminen parempaan paikkaan - katso paketin sisään ->
+Contents/Resources/etc/netbeans.conf 50min
+
+netbeans meni rikki eikä suostunut käynnistymään enää toista kertaa - tunnistettu bugi
+sudo killall -u nnexus // ei auttanu
+hard reset // auttoi
+kotihakemiston luvituksissa on vikaa, eikä netbeans suostu käyttämään sitä // en saanut vielä korjattua 45min
