@@ -21,6 +21,8 @@ netbeansin projektikansion osoittaminen parempaan paikkaan - katso paketin sisä
 Contents/Resources/etc/netbeans.conf 50min
 
 netbeans meni rikki eikä suostunut käynnistymään enää toista kertaa - tunnistettu bugi
+
 sudo killall -u nnexus // ei auttanu
 hard reset // auttoi
+
 kotihakemiston luvituksissa on vikaa, eikä netbeans suostu käyttämään sitä // en saanut vielä korjattua 45min
