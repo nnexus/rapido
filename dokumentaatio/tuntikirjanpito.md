@@ -1,16 +1,16 @@
-1.5.2015 ma OH 15min
+11.5.2015 ma OH 15min
 os x komentorivin su -komento 15min
 
-12.5.2015 ti OH 105min
+12.5.2015 ti OH 1h 45min
 dokumentaatio komentolinjasta, sudo toimii hieman eri tavalla os x:ssä kuin linuxissa 90min
 githubin asetukset & tilin luonti 15min
 
-13.5.2015 ke OH 60min
+13.5.2015 ke OH 1h
 SSH-avaimen luominen omalla koneella
 ssh-agent // agentin luominen vaikeaa, en saanut tehtyä loppuun asti kohtaa:  Step 3: Add your key to the ssh-agent 60min
 
 
-14.5.2015 to OH
+14.5.2015 to OH 3h 50min
 Netbeans-projektin luominen repokansioon 
 -javan (uusimman) asentaminen
 -tmc-netbeansin asentaminen, installerin kanssa ongelmia - jouduin asentamaan netbeansin erikseen
@@ -26,3 +26,5 @@ sudo killall -u nnexus // ei auttanu
 hard reset // auttoi
 
 kotihakemiston luvituksissa on vikaa, eikä netbeans suostu käyttämään sitä // en saanut vielä korjattua 45min
+tuntikirjan pito + kansiorakenne + aihemäärittely + labtools 45min
+
