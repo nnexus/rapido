@@ -6,7 +6,7 @@ Tavoitteena pelissä on saada löydettyä kaikki sanaparit mahdollisimman nopeas
 Käyttäjät: kaikki
 
 
-Kaikkien käyttäjien toiminnot:
+Kaikkien käyttäjien toiminnot: pelin vaikeustason valinta, uuden pelin aloitus, pelin lopetus ja maksimipistemäärien top-10 katsominen.
 
 
 
