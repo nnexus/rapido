@@ -1,2 +1,6 @@
 # rapido
 muistipeli espanjankielellÃ¤
+
+tekstiä:
+
+
