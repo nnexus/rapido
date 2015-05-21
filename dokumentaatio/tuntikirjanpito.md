@@ -49,4 +49,6 @@ gitin asennus winkulle + SSH avain
 
 reposition valmisteleminen käyttö varten 
 pieni repotreeni 
-mave netbeansissa + .gitignore pushina repoon 120min
+mave netbeansissa + .gitignore pushina repoon 100min
+
+luokkakaavion lisääminen - lisäsin sen käsin työkoneen kloonihakemistoon ja pushasin 20min
