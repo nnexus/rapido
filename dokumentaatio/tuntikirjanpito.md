@@ -28,3 +28,25 @@ hard reset // auttoi
 kotihakemiston luvituksissa on vikaa, eikä netbeans suostu käyttämään sitä // en saanut vielä korjattua 45min
 tuntikirjan pito + kansiorakenne + aihemäärittely + labtools 45min
 
+19.5.2015 ti 2h 15min
+netbeans kotihakemiston uusi polku rikki, luvitukset ei toimi- chmod 755 ei auta!?	75min
+luokkakaavion hahmottelua 30min
+JUnit-yksikkötestauksen perusteiden lukemista 30min	   
+	 
+20.5.2015 ke 1h 15min 
+ssh-agent
+uuden avaimen luonti - ilman sudoa - sain viimein yhteyden toimimaan githubiin terminaalissa 30min 	
+javan kirjoittamista - luokkien hahmottelua 30min
+netbeansin kotikansion luvitukset + kansion lukitus, ei vain toimi,
+johtuu todennäköisesti bugista: https://forums.netbeans.org/ntopic3753.html 15min
+	
+21.5.2015	
+netbeansin versio tmc:llä ei toimi, installeri ei lähde käyntiin
+netbeansin asennus uudelleen, testaan versiota 8.0.1, edellinen 8.0.2  -> ei toimi 
+hyväksyn tilanteen, että en saa asennettua os x:lle toimivaa netbeansia -> siirryn käyttämään pelkästään winkkua 60min
+
+gitin asennus winkulle + SSH avain 
+
+reposition valmisteleminen käyttö varten 
+pieni repotreeni 
+mave netbeansissa + .gitignore pushina repoon 120min
