@@ -40,7 +40,7 @@ javan kirjoittamista - luokkien hahmottelua 30min
 netbeansin kotikansion luvitukset + kansion lukitus, ei vain toimi,
 johtuu todennäköisesti bugista: https://forums.netbeans.org/ntopic3753.html 15min
 	
-21.5.2015	
+21.5.2015 to 3h	
 netbeansin versio tmc:llä ei toimi, installeri ei lähde käyntiin
 netbeansin asennus uudelleen, testaan versiota 8.0.1, edellinen 8.0.2  -> ei toimi 
 hyväksyn tilanteen, että en saa asennettua os x:lle toimivaa netbeansia -> siirryn käyttämään pelkästään winkkua 60min
