@@ -63,6 +63,7 @@ viikkotehtävien 1 & 2  hahmotus ylätasolla 20min
 	-JUnit, testaa mahdollisimman monta luokkaa ja metodia, noin 10 testiä valmiina
 	-tee seuraava iteraatio luokkakaaviosta ja stilisoi sitä
 	-hahmottele ensimmäinen versio ohjelmasta?
-		valikon rakenne 60min
+	
+	valikon rakenne 60min
 
 
