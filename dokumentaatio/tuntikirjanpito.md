@@ -65,3 +65,4 @@ viikkotehtävien 1 & 2  hahmotus ylätasolla 20min
 	-hahmottele ensimmäinen versio ohjelmasta?
 		valikon rakenne 60min
 
+
