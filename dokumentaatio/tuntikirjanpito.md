@@ -56,14 +56,16 @@ luokkakaavion lisääminen - lisäsin sen käsin työkoneen kloonihakemistoon ja
 23.5.2015 2h 20min
 viikkotehtävien 1 & 2  hahmotus ylätasolla 20min
 1. viikkotehtävä
-	-aihemäärittelyä tulee laajentaa hieman
+-aihemäärittelyä tulee laajentaa hieman
+
 2. viikkotehtävä
-	-ohjelmalogiikan hahmottelua 60min
-	-> liikkeelle yksinkertaisesta toteutuksesta
-	-JUnit, testaa mahdollisimman monta luokkaa ja metodia, noin 10 testiä valmiina
-	-tee seuraava iteraatio luokkakaaviosta ja stilisoi sitä
-	-hahmottele ensimmäinen versio ohjelmasta?
+
+-ohjelmalogiikan hahmottelua 60min
+-> liikkeelle yksinkertaisesta toteutuksesta
+-JUnit, testaa mahdollisimman monta luokkaa ja metodia, noin 10 testiä valmiina
+-tee seuraava iteraatio luokkakaaviosta ja stilisoi sitä
+-hahmottele ensimmäinen versio ohjelmasta?
 	
-	valikon rakenne 60min
+valikon rakenne 60min
 
 
