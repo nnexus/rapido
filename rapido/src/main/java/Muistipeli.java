@@ -56,11 +56,11 @@ public class Muistipeli {
   
     public static void main(String[] args) {
     
-          System.out.println("Tämä on muistipeli espanjankielisillä sanoilla!");
+        System.out.println("Tämä on muistipeli espanjankielisillä sanoilla!");
     
-        
+       
      
-     valikko();
+         valikko();
         
      
         
