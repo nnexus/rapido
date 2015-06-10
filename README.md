@@ -1,6 +1,5 @@
 # rapido
-muistipeli espanjankielellÃ¤
+jatkansakkia
 
-tekstiä:
 
 

@@ -10,39 +10,10 @@
 import java.util.Scanner;
 public class Muistipeli {
 
-    public static void alustaPelitaulukko(char[][] taulukko)
-    {
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-              taulukko[i][j] = ' ';
-            }
-        }
-    }
+   
+   
     
-    public static void piirraPelitaulukko(char[][] taulukko)
-    {
-        System.out.println(" --------");
-        for (int i = 0; i < 4; i++) {
-            System.out.print("| ");
-            for (int j = 0; j < 4; j++) {
-                System.out.print(taulukko[i][j] + " ");
-            }
-            System.out.println("|");
-    }
-        System.out.println(" --------");
-        System.out.println();
-    }
     
-    public static void arvoPelitaulukkoon(char[][] taulukko)
-    {
-        int x = (int) (Math.random() * 4);
-            int y = (int) (Math.random() * 4);
-                if (taulukko[y][x] == ' ')
-                {
-                    taulukko[y][x] = 'X';
-                   
-                }
-    }
     
     public static void valikko()
     {
@@ -95,22 +66,46 @@ public class Muistipeli {
     public static void main(String[] args) {
         
         char[][] pelitaulukko = new char[4][4];
-        alustaPelitaulukko(pelitaulukko);
-        piirraPelitaulukko(pelitaulukko);
+        Pelilauta.alustaPelitaulukko(pelitaulukko);
+        //Pelilauta.piirraPelitaulukko(pelitaulukko);
+
+        Scanner syotteenLukija = new Scanner (System.in);
+
 
 
     
-        System.out.println("Tämä on muistipeli espanjankielisillä sanoilla!");
+        System.out.println("Tämä on jätkänsakki, 3x3 ruudukolla");
+        System.out.println("Minulla on 'X' merkki ja aloitan, sinulla on 'O' merkit");
     
-       
-        while(true)
-        {
-            valikko();
-         
-       
-        }
-     
         
+            for(int i = 0; i <=8; i++)
+            {
+            // ARVOTAAN X -merkki
+           
+                //valikko();
+                Pelilauta.arvoPelitaulukkoon(pelitaulukko);
+                Pelilauta.piirraPelitaulukko(pelitaulukko);
+
+
+           
+                
+                // KÄYTTÄJÄN SYÖTTEEN vastaanottaminen ja validointi
+                while (true)
+                    {
+                        System.out.print("Anna ruudun pystykoordinaatti, ylhäällä 1: ");
+                        int y = syotteenLukija.nextInt();
+                        System.out.print("anna ruudun vaakakoordinaatti, vasemmassa reunassa 1: ");
+                        int x = syotteenLukija.nextInt();
+                        if (x >0 && x < 5 && y >0 && y < 5 && pelitaulukko[y-1][x-1] == ' ')
+                        {
+                            pelitaulukko[y-1][x-1] = 'O';
+                            break;
+                        }
+                        System.out.println("Virheelliset koordinaatit tai ruutu on jo varattu.");
+                    }
+                    Pelilauta.piirraPelitaulukko(pelitaulukko);
+            }
+        }
      // MÄÄRITETÄÄN GRIDin koko   
         
         
@@ -128,5 +123,5 @@ public class Muistipeli {
         ----------------------------------------------------------------------*/        
         
         
-    }
 }
+
