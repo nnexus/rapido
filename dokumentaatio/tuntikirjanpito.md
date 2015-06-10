@@ -68,4 +68,23 @@ viikkotehtävien 1 & 2  hahmotus ylätasolla 20min
 	
 valikon rakenne 60min
 
+2.6.2015 1h
+Pohdintaa onko kurssiin mukaan enää mahdollista päästä. 
+
+Luokkien hahmottelua ja luomista javalla
+	-Pisteet
+	-Sanat
+
+Vaikea keksia miten pääsisin eteenpäin sanaparien taulukon muodostamisen kanssa. Mietin, että käyttäisin
+aluksi vain moniulotteista chat -taulukkoa, johon syöttäisin kirjainpareja.
+
+9.6. ti 1h 30min
+GitBashin komentoja 30min
+Muistipelin valikko 30min
+metodeita: alustaPelitaulukko, piirraPelitaulukko, arvoPelitaulukkoon	30min
+
+10.6. ke 1h 40min
+
+muunnos muistipelistä jätkänsakiksi: luokkien ja metodien nimet 1h
+pelin pääsilmukan rakenne + Pelilauta -luokkaan metodeita 40min
 
