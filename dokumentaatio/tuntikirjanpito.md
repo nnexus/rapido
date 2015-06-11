@@ -88,3 +88,17 @@ metodeita: alustaPelitaulukko, piirraPelitaulukko, arvoPelitaulukkoon	30min
 muunnos muistipelistä jätkänsakiksi: luokkien ja metodien nimet 1h
 pelin pääsilmukan rakenne + Pelilauta -luokkaan metodeita 40min
 
+11.6. to 3h 30min
+tarkistaVoitto -metodi, joka tarkistaa löytyykö perättäisiä merkkejä voittoon 1h
+
+metodien kommenttikuvaukset tarkemmin 15min
+
+ohjeen kuvauksen muokkaus 15min
+
+github bashin - pullit ja pushit tulevat tutummiksi pikkuhiljaa komennoilla pelatessa 30min
+
+PIT -raportin luonti
+	-default -paketin poisto ja logiikka paketin luonti, en saanut generoitua raporttia 1h
+	-JUnit -testaus materiaalin lukemista ja ensimmäisen testin PelilautaTest.java luonti 30min
+
+

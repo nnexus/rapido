@@ -1,3 +1,5 @@
+package logiikka;
+
   /*********************************************************
  *        Patrik Helminen 20.5.2015                        *
  *        Ohjelmoinnin harjoitustyö [kesä 2015]            *
@@ -26,7 +28,7 @@ public class Muistipeli {
         char valinta;
                
         Scanner valikonlukija = new Scanner(System.in);
-        System.out.println("Valitse jokin vaihtoehto: (U)usi peli, (V)aikeusaste, (P)isteet top-10, (O)hjeet, (L)opeta");  
+        System.out.println("Valitse jokin vaihtoehto: (U)usi peli, (O)hjeet, (L)opeta");  
         valinta = valikonlukija.findInLine(".").charAt(0); //luetaan char -tyyppinen syöte
              
            switch (valinta) {
@@ -34,17 +36,8 @@ public class Muistipeli {
                 System.out.println("Uusi peli");
                 // aloittaa uuden pelin valitulla vaikeusteella, oletus 1
                 // GUI:ssa aloittaa uuden pelin valitulla vaikeusasteella, oletus 1
-          
-                break;
-            case 'V':
-                System.out.println("Vaikeusaste");
-                // printtaa nykyisen vaikeusasteen ja ottaa vastaan syötteen uudesta
-                // GUI:ssa nykyinen vaikeusastet pop uppina ja ottaa vastaan syötteen uudesta
-                break;
-            case 'P':
-                System.out.println("Pisteet");
-                // printtaa maksimipisteet top-10 pelaajaa 
-                // GUI:ssa maksimipisteet pop upppina top-10 pelaajaa 
+                System.out.println("Tämä on jätkänsakki, 4x4 ruudukolla");
+                System.out.println("Minulla on 'X' merkki ja aloitan, sinulla on 'O' merkit");
                 break;
             case 'O':
                 System.out.println("Ohjeet");
@@ -68,60 +61,61 @@ public class Muistipeli {
         char[][] pelitaulukko = new char[4][4];
         Pelilauta.alustaPelitaulukko(pelitaulukko);
         //Pelilauta.piirraPelitaulukko(pelitaulukko);
-
         Scanner syotteenLukija = new Scanner (System.in);
 
-
+        char xmerkki = 'X';
+        char omerkki = 'O';
 
     
-        System.out.println("Tämä on jätkänsakki, 3x3 ruudukolla");
-        System.out.println("Minulla on 'X' merkki ja aloitan, sinulla on 'O' merkit");
+     
     
-        
+            // PÄÄSILMUKKA int i = 8 -> 4x4 laudassa on 16 ruutua 
             for(int i = 0; i <=8; i++)
             {
-            // ARVOTAAN X -merkki
+                
+            /*---- KONEEN PELIVUORO--------------------------------------------------   
+                arvotaan ja validoidaan kordinaatit X -merkkille ja sijoitetaan tauluun
+                piirretään taulu käyttäjälle
+                tarkistetaan johtiko merkin sijoittaminen pelilaudalle voiton, mikäli kyllä, lopetaan peli
+            ----------------------------------------------------------------------*/      
            
                 //valikko();
                 Pelilauta.arvoPelitaulukkoon(pelitaulukko);
                 Pelilauta.piirraPelitaulukko(pelitaulukko);
-
+                
+                if(Pelilauta.tarkistaVoitto(xmerkki, pelitaulukko))
+                {    
+                    System.out.println("Hävisit!");
+                    i = 8;
+                }
 
            
                 
                 // KÄYTTÄJÄN SYÖTTEEN vastaanottaminen ja validointi
-                while (true)
+                while(true)
+                {
+                    
+                    System.out.print("Anna ruudun pystykoordinaatti, ylhäällä on 1: ");
+                    int y = syotteenLukija.nextInt();
+                    System.out.print("Anna ruudun vaakakoordinaatti, vasemmassa reunassa on 1: ");
+                    int x = syotteenLukija.nextInt();
+                    if (x >0 && x < 5 && y >0 && y < 5 && pelitaulukko[y-1][x-1] == ' ')
                     {
-                        System.out.print("Anna ruudun pystykoordinaatti, ylhäällä 1: ");
-                        int y = syotteenLukija.nextInt();
-                        System.out.print("anna ruudun vaakakoordinaatti, vasemmassa reunassa 1: ");
-                        int x = syotteenLukija.nextInt();
-                        if (x >0 && x < 5 && y >0 && y < 5 && pelitaulukko[y-1][x-1] == ' ')
-                        {
-                            pelitaulukko[y-1][x-1] = 'O';
-                            break;
-                        }
-                        System.out.println("Virheelliset koordinaatit tai ruutu on jo varattu.");
+                        pelitaulukko[y-1][x-1] = 'O';
+                        break;
                     }
-                    Pelilauta.piirraPelitaulukko(pelitaulukko);
+                    System.out.println("Virheelliset koordinaatit tai ruutu on jo varattu, syötä uudestaan kordinaatit");
+                }
+                Pelilauta.piirraPelitaulukko(pelitaulukko);
+                if(Pelilauta.tarkistaVoitto(omerkki, pelitaulukko))
+                {
+                    System.out.println("Voitit!");
+                    i = 8;
+                }
             }
+            valikko();
         }
-     // MÄÄRITETÄÄN GRIDin koko   
-        
-        
-        
-        
-     // ARVOTAAN NUMEROT gridiin   
-        
-        
-        
-        /*---- PIIRRÄ VALIKKO--------------------------------------------------   
-        arraylistillä tulostetaan taulukon sisältö halutun kokoiseen gridiin
-            arrayn sisältöön arvotaan random mathilla numeroparien indeksit, 
-            jotka sitten sijoitetaan taulukkoon
-                
-        ----------------------------------------------------------------------*/        
-        
+
         
 }
 
