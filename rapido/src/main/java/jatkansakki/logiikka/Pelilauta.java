@@ -1,3 +1,5 @@
+package jatkansakki.logiikka;
+
   /*********************************************************
  *        Patrik Helminen 2.6.2015                         *
  *        Ohjelmoinnin harjoitustyö [kesä 2015]            *

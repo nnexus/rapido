@@ -100,5 +100,5 @@ github bashin - pullit ja pushit tulevat tutummiksi pikkuhiljaa komennoilla pela
 PIT -raportin luonti
 	-default -paketin poisto ja logiikka paketin luonti, en saanut generoitua raporttia 1h
 	-JUnit -testaus materiaalin lukemista ja ensimmäisen testin PelilautaTest.java luonti 30min
-
+	-Javadoc C:\Users\e63309\Desktop\GitHub\rapido\rapido\target\site\apidocs\index.html
 

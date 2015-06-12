@@ -1,4 +1,4 @@
-package logiikka;
+package jatkansakki.logiikka;
 
   /*********************************************************
  *        Patrik Helminen 20.5.2015                        *
