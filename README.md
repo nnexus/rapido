@@ -1,5 +1,5 @@
 # rapido
-jatkansakkia
+Pelataan jätkänsakkia isolla ruudukolla!
 
 
 
