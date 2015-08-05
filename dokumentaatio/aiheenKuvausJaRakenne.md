@@ -1,8 +1,8 @@
 Aihe: Jätkänsakki 
 
 
-Toteutetaan peli, jossa käyttäjä pelaa konetta vastaan sijoittaen pelilaudalle oman merkkinsä. Tavoitteena on saada laudan reunasta
-reunaan yhtenäisesti omat merkit. Kumpikin osapuoli sijoittaa omalla vuorollansa merkin tyhjään ruutuun.
+Toteutetaan peli, jossa käyttäjä pelaa konetta vastaan sijoittaen pelilaudalle oman merkkinsä. Tavoitteena on saada laudalle muodostettua yhtenäinen 5 saman perättäisen merkin pituinen jono. Merkit voivat olla vaaka- ja pystysuorassa tai vinottain.
+Kumpikin osapuoli sijoittaa omalla vuorollansa merkin tyhjään ruutuun.
 
 
 Käyttäjät: kaikki
