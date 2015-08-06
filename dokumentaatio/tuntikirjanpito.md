@@ -102,3 +102,25 @@ PIT -raportin luonti
 	-JUnit -testaus materiaalin lukemista ja ensimmäisen testin PelilautaTest.java luonti 30min
 	-Javadoc C:\Users\e63309\Desktop\GitHub\rapido\rapido\target\site\apidocs\index.html
 
+
+29.7.2015 ke 30min
+Sain onneksi jatkaa edellisen kurssin tyngäksi jäänyttä työtäni, joten uuden aiheen valinta ei ollut edessä. 
+
+Muistinvirkistys:
+Kurssin vaatimusten läpikäyminen 30min
+
+
+5.8. ke 1h
+GitHubin komennot 30min
+Kirjoittamani koodin tutkimista: luokat ja metodit 30min
+
+6.8. to 1h 50min
+Luokkakaavion päivittäminen uuteen vaihtuneeseen aiheeseen. Siivottu pois vanhat luokat ja päivitetty nimiä. 70min
+
+GitHubi antaa komennolla: "git push" turhan usein
+"fatal: 'origin' could not appear to be a git repository"
+"fatal: could not read from remote repository"
+
+JUnitin perusteiden lukemista ja miten käyttää niitä NetBeansissa. Illan aika loppui kesken, enkä saanut enää rakennettua mitään toimivaa testiä NB:hen.
+PIT -raportin sain nopeasti generoitua uudelleen.  40min
+

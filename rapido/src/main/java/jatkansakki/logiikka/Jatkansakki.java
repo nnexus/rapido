@@ -10,7 +10,7 @@ package jatkansakki.logiikka;
 
 
 import java.util.Scanner;
-public class Muistipeli {
+public class Jatkansakki {
 
    
    
