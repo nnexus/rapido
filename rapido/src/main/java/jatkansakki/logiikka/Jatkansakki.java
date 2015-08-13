@@ -7,53 +7,17 @@ package jatkansakki.logiikka;
  *********************************************************/
 
 
-
-
 import java.util.Scanner;
+
 public class Jatkansakki {
 
+   private Kayttoliittyma kayttoliittyma; // ohjain näkee näkymän
+   private Pelilauta pelilauta; // ohjain näkee mallin
+   private Pelaaja pelaaja; 
+    
+    
+    
    
-   
-    
-    
-    
-    public static void valikko()
-    {
-        /*---- PIIRRÄ VALIKKO--------------------------------------------------   
-        kutsutaan metodilla valikko()
-        -piirtää valikon käyttäjälle
-        -ottaa vastaan käyttäjän syötteen ja kutsuu syötettä vastaavaa metodia         
-             
-        ----------------------------------------------------------------------*/         
-        char valinta;
-               
-        Scanner valikonlukija = new Scanner(System.in);
-        System.out.println("Valitse jokin vaihtoehto: (U)usi peli, (O)hjeet, (L)opeta");  
-        valinta = valikonlukija.findInLine(".").charAt(0); //luetaan char -tyyppinen syöte
-             
-           switch (valinta) {
-            case 'U':
-                System.out.println("Uusi peli");
-                // aloittaa uuden pelin valitulla vaikeusteella, oletus 1
-                // GUI:ssa aloittaa uuden pelin valitulla vaikeusasteella, oletus 1
-                System.out.println("Tämä on jätkänsakki, 4x4 ruudukolla");
-                System.out.println("Minulla on 'X' merkki ja aloitan, sinulla on 'O' merkit");
-                break;
-            case 'O':
-                System.out.println("Ohjeet");
-                // printataan lyhyet ohjeet miten peliä pelataan - .txt -filenä?
-                // GUI:ssa ohjeet pop uppina
-                break;
-                
-           
-            case 'L':
-                System.out.println("Lopetit!");
-                // lopettaa pelin ja palaa alkuvalikkoon
-                // GUI:ssa lopettaa pelin ja palaa alkuvalikkoon
-                break;
-            }
-            System.out.println("TESTI ulos switch");
-    }
    
   
     public static void main(String[] args) {
@@ -81,7 +45,7 @@ public class Jatkansakki {
            
                 //valikko();
                 Pelilauta.arvoPelitaulukkoon(pelitaulukko);
-                Pelilauta.piirraPelitaulukko(pelitaulukko);
+                Kayttoliittyma.piirraPelitaulukko(pelitaulukko);
                 
                 if(Pelilauta.tarkistaVoitto(xmerkki, pelitaulukko))
                 {    
@@ -106,14 +70,14 @@ public class Jatkansakki {
                     }
                     System.out.println("Virheelliset koordinaatit tai ruutu on jo varattu, syötä uudestaan kordinaatit");
                 }
-                Pelilauta.piirraPelitaulukko(pelitaulukko);
+                Kayttoliittyma.piirraPelitaulukko(pelitaulukko);
                 if(Pelilauta.tarkistaVoitto(omerkki, pelitaulukko))
                 {
                     System.out.println("Voitit!");
                     i = 8;
                 }
             }
-            valikko();
+            Kayttoliittyma.piirraValikko();
         }
 
         

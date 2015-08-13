@@ -111,7 +111,7 @@ Kurssin vaatimusten läpikäyminen 30min
 
 
 5.8. ke 1h
-GitHubin komennot 30min
+GitHubin komennot 30minv
 Kirjoittamani koodin tutkimista: luokat ja metodit 30min
 
 6.8. to 1h 50min
@@ -124,3 +124,14 @@ GitHubi antaa komennolla: "git push" turhan usein
 JUnitin perusteiden lukemista ja miten käyttää niitä NetBeansissa. Illan aika loppui kesken, enkä saanut enää rakennettua mitään toimivaa testiä NB:hen.
 PIT -raportin sain nopeasti generoitua uudelleen.  40min
 
+11.8. ti 45min
+GUI:n ja MVC:n perusteiden kertaamista 45min
+
+12.8. ke 1h 
+Luokkakaavion päivitys MVC:n mukaaan loogisemmaksi. Käyttöliittymä -luokan luonti ja sinne kuuluvien metodien siirtäminen sinne. 45min
+Luokkien testauksen materiaalin lukemista, tein ensimmäisen metodin testin. 15min
+
+13.8. to 2,5h
+Testien kirjoittamista, en saanut toimimaan eilistä kirjoittamaani 30min
+Vaikeuksia saada tehtyä testejä 1h
+Luokkakaavion päivitys 1h	

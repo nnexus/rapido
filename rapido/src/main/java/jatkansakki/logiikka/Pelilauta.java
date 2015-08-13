@@ -22,23 +22,7 @@ public class Pelilauta {
         }
    }
    
-    /*----piirraPelitaulukkko-----------------------------------------------   
-     piirtää taulun sisällön reunojen kanssa
-              
-    ----------------------------------------------------------------------*/
-   public static void piirraPelitaulukko(char[][] taulukko)
-   {
-        System.out.println(" ********");
-        for (int i = 0; i < 4; i++) {
-            System.out.print("* ");
-            for (int j = 0; j < 4; j++) {
-                System.out.print(taulukko[i][j] + " ");
-            }
-            System.out.println("*");
-   }
-        System.out.println(" ********");
-        System.out.println();
-   }
+    
    
     /*----arvoPelitaulukko---------------------------------------------------  
      piirtää taulun sisällön reunojen arvoPelitaulukkoon arpoo luvun 1-4 välillä 2-ulotteiseen kordinaatistoon
