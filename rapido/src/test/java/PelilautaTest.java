@@ -38,27 +38,24 @@ public class PelilautaTest {
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
-        @Test
-     
-        public static void arvoPelitaulukkoon(char[][] taulukko){
-        
-        
-           // assertTrue(x < 5 && x > 0);
-
-     
-}
-        
-        @Test
-        
-       public static void alustaPelitaulukko(char[][] taulukko)
+       
+      
+       // testataan merkki = X 
+       @Test 
+       public void arvoPelitaulukkoon(char[][] taulukko)
    {
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-              taulukko[i][j] = ' ';
-            }
+        while(true)
+        {    
+            int x = (int) (Math.random() * 4);
+            int y = (int) (Math.random() * 4);
+                
+                if (taulukko[y][x] == ' ')
+                {
+                    taulukko[y][x] = 'X'; 
+                    assertEquals('X', taulukko[y][x]);
+                    break;
+                }
         }
-        
-        assertTrue(i == 0);
    }
 
 }
